@@ -1,0 +1,300 @@
+[
+  {
+    "id": "m001",
+    "round": "Round 1",
+    "date": "Jul 5, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a2",
+      "name": "Green Valley FC"
+    },
+    "awayTeam": {
+      "id": "a5",
+      "name": "Sunrise Rovers"
+    },
+    "homeScore": 4,
+    "awayScore": 3,
+    "motm": "Kaleb Alemu",
+    "goalScorers": [
+      "Lidet Alemu (Green Valley FC)",
+      "Lidet Alemu (Green Valley FC)",
+      "Kaleb Alemu (Green Valley FC)",
+      "Lidet Alemu (Green Valley FC)",
+      "Hiwot Alemu (Sunrise Rovers)",
+      "Eyob Alemu (Sunrise Rovers)",
+      "Ismael Alemu (Sunrise Rovers)"
+    ]
+  },
+  {
+    "id": "m002",
+    "round": "Round 1",
+    "date": "Jul 5, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a3",
+      "name": "River Side United"
+    },
+    "awayTeam": {
+      "id": "a4",
+      "name": "Highland Strikers"
+    },
+    "homeScore": 4,
+    "awayScore": 3,
+    "motm": "Robel Alemu",
+    "goalScorers": [
+      "Samuel Alemu (River Side United)",
+      "Petros Alemu (River Side United)",
+      "Obsa Alemu (River Side United)",
+      "Robel Alemu (River Side United)",
+      "Chala Alemu (Highland Strikers)",
+      "Zelalem Alemu (Highland Strikers)",
+      "Bereket Alemu (Highland Strikers)"
+    ]
+  },
+  {
+    "id": "m003",
+    "round": "Round 2",
+    "date": "Jul 12, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a1",
+      "name": "Thunder Hawks FC"
+    },
+    "awayTeam": {
+      "id": "a5",
+      "name": "Sunrise Rovers"
+    },
+    "homeScore": 0,
+    "awayScore": 2,
+    "motm": "Eyob Alemu",
+    "goalScorers": [
+      "Ismael Alemu (Sunrise Rovers)",
+      "Hiwot Alemu (Sunrise Rovers)"
+    ]
+  },
+  {
+    "id": "m004",
+    "round": "Round 2",
+    "date": "Jul 12, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a2",
+      "name": "Green Valley FC"
+    },
+    "awayTeam": {
+      "id": "a3",
+      "name": "River Side United"
+    },
+    "homeScore": 4,
+    "awayScore": 0,
+    "motm": "Lidet Alemu",
+    "goalScorers": [
+      "Jemal Alemu (Green Valley FC)",
+      "Lidet Alemu (Green Valley FC)",
+      "Jemal Alemu (Green Valley FC)",
+      "Henok Alemu (Green Valley FC)"
+    ]
+  },
+  {
+    "id": "m005",
+    "round": "Round 3",
+    "date": "Jul 19, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a1",
+      "name": "Thunder Hawks FC"
+    },
+    "awayTeam": {
+      "id": "a4",
+      "name": "Highland Strikers"
+    },
+    "homeScore": 1,
+    "awayScore": 2,
+    "motm": "Zelalem Alemu",
+    "goalScorers": [
+      "Biniam Alemu (Thunder Hawks FC)",
+      "Yared Alemu (Highland Strikers)",
+      "Bereket Alemu (Highland Strikers)"
+    ]
+  },
+  {
+    "id": "m006",
+    "round": "Round 3",
+    "date": "Jul 19, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "a5",
+      "name": "Sunrise Rovers"
+    },
+    "awayTeam": {
+      "id": "a3",
+      "name": "River Side United"
+    },
+    "homeScore": 0,
+    "awayScore": 3,
+    "motm": "Robel Alemu",
+    "goalScorers": [
+      "Robel Alemu (River Side United)",
+      "Petros Alemu (River Side United)",
+      "Robel Alemu (River Side United)"
+    ]
+  },
+  {
+    "id": "m011",
+    "round": "Round 1",
+    "date": "Jul 5, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b2",
+      "name": "Golden Eagles"
+    },
+    "awayTeam": {
+      "id": "b5",
+      "name": "Community United"
+    },
+    "homeScore": 2,
+    "awayScore": 0,
+    "motm": "Lidet Bekele",
+    "goalScorers": [
+      "Henok Bekele (Golden Eagles)",
+      "Kaleb Bekele (Golden Eagles)"
+    ]
+  },
+  {
+    "id": "m012",
+    "round": "Round 1",
+    "date": "Jul 5, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b3",
+      "name": "Village Warriors"
+    },
+    "awayTeam": {
+      "id": "b4",
+      "name": "Red Star Boys"
+    },
+    "homeScore": 0,
+    "awayScore": 1,
+    "motm": "Yared Bekele",
+    "goalScorers": [
+      "Alazar Bekele (Red Star Boys)"
+    ]
+  },
+  {
+    "id": "m013",
+    "round": "Round 2",
+    "date": "Jul 12, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b1",
+      "name": "Iron Lions FC"
+    },
+    "awayTeam": {
+      "id": "b5",
+      "name": "Community United"
+    },
+    "homeScore": 0,
+    "awayScore": 1,
+    "motm": "Gemechu Bekele",
+    "goalScorers": [
+      "Ismael Bekele (Community United)"
+    ]
+  },
+  {
+    "id": "m014",
+    "round": "Round 2",
+    "date": "Jul 12, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b2",
+      "name": "Golden Eagles"
+    },
+    "awayTeam": {
+      "id": "b3",
+      "name": "Village Warriors"
+    },
+    "homeScore": 2,
+    "awayScore": 3,
+    "motm": "Mekdes Bekele",
+    "goalScorers": [
+      "Lidet Bekele (Golden Eagles)",
+      "Henok Bekele (Golden Eagles)",
+      "Obsa Bekele (Village Warriors)",
+      "Petros Bekele (Village Warriors)",
+      "Robel Bekele (Village Warriors)"
+    ]
+  },
+  {
+    "id": "m015",
+    "round": "Round 3",
+    "date": "Jul 19, 2026",
+    "time": "3:00 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b1",
+      "name": "Iron Lions FC"
+    },
+    "awayTeam": {
+      "id": "b4",
+      "name": "Red Star Boys"
+    },
+    "homeScore": 4,
+    "awayScore": 1,
+    "motm": "Dawit Bekele",
+    "goalScorers": [
+      "Ezra Bekele (Iron Lions FC)",
+      "Fikru Bekele (Iron Lions FC)",
+      "Fikru Bekele (Iron Lions FC)",
+      "Ezra Bekele (Iron Lions FC)",
+      "Bereket Bekele (Red Star Boys)"
+    ]
+  },
+  {
+    "id": "m016",
+    "round": "Round 3",
+    "date": "Jul 19, 2026",
+    "time": "4:30 PM",
+    "venue": "Village Community Pitch",
+    "status": "completed",
+    "homeTeam": {
+      "id": "b5",
+      "name": "Community United"
+    },
+    "awayTeam": {
+      "id": "b3",
+      "name": "Village Warriors"
+    },
+    "homeScore": 4,
+    "awayScore": 2,
+    "motm": "Feven Bekele",
+    "goalScorers": [
+      "Ismael Bekele (Community United)",
+      "Feven Bekele (Community United)",
+      "Ismael Bekele (Community United)",
+      "Ismael Bekele (Community United)",
+      "Robel Bekele (Village Warriors)",
+      "Petros Bekele (Village Warriors)"
+    ]
+  }
+]

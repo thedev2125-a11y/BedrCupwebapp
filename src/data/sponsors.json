@@ -1,0 +1,44 @@
+[
+  {
+    "id": "s1",
+    "name": "Highland Dairy Co-op",
+    "tier": "gold",
+    "logoInitials": "HD",
+    "description": "Proud title sponsor supplying matchday refreshments for every fixture."
+  },
+  {
+    "id": "s2",
+    "name": "Riverbank Hardware",
+    "tier": "gold",
+    "logoInitials": "RH",
+    "description": "Supporting pitch maintenance and goalpost upgrades this season."
+  },
+  {
+    "id": "s3",
+    "name": "Sunrise Bakery",
+    "tier": "silver",
+    "logoInitials": "SB",
+    "description": "Serving up half-time snacks for players and fans alike."
+  },
+  {
+    "id": "s4",
+    "name": "Village Motors",
+    "tier": "silver",
+    "logoInitials": "VM",
+    "description": "Providing transport for away-day travel between village pitches."
+  },
+  {
+    "id": "s5",
+    "name": "Community Pharmacy",
+    "tier": "bronze",
+    "logoInitials": "CP",
+    "description": "On-call matchday first aid support for players."
+  },
+  {
+    "id": "s6",
+    "name": "Green Fields Nursery",
+    "tier": "bronze",
+    "logoInitials": "GF",
+    "description": "Keeping the pitch green with seasonal turf care."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "n1",
+    "title": "Village Summer Tournament 2026 Kicks Off",
+    "image": "https://picsum.photos/seed/vst-opening/900/600",
+    "date": "Jul 5, 2026",
+    "excerpt": "Ten teams, one community, and a summer of football began this weekend as the opening matches drew record crowds to the village pitch.",
+    "featured": true
+  },
+  {
+    "id": "n2",
+    "title": "Thunder Hawks Fly Past Rivals in Group A Opener",
+    "image": "https://picsum.photos/seed/vst-hawks/900/600",
+    "date": "Jul 6, 2026",
+    "excerpt": "A dominant first-half display set the tone for what could be a strong campaign for last year's semi-finalists.",
+    "featured": false
+  },
+  {
+    "id": "n3",
+    "title": "New Floodlights Installed Ahead of Evening Fixtures",
+    "image": "https://picsum.photos/seed/vst-lights/900/600",
+    "date": "Jul 10, 2026",
+    "excerpt": "Thanks to sponsor contributions, the village pitch now supports evening kick-offs for the first time in the tournament's history.",
+    "featured": false
+  },
+  {
+    "id": "n4",
+    "title": "Group B Race Tightens After Round 2",
+    "image": "https://picsum.photos/seed/vst-groupb/900/600",
+    "date": "Jul 13, 2026",
+    "excerpt": "Four points now separate the top three sides in Group B, setting up a tense finish to the group stage.",
+    "featured": false
+  },
+  {
+    "id": "n5",
+    "title": "Meet the Volunteers Behind Matchday",
+    "image": "https://picsum.photos/seed/vst-volunteers/900/600",
+    "date": "Jul 16, 2026",
+    "excerpt": "From lining the pitch to running the snack stand, a small army of volunteers keeps the tournament running every weekend.",
+    "featured": false
+  },
+  {
+    "id": "n6",
+    "title": "Top Scorer Race Heats Up Heading Into Round 4",
+    "image": "https://picsum.photos/seed/vst-scorers/900/600",
+    "date": "Jul 20, 2026",
+    "excerpt": "With the group stage entering its final rounds, three players are within a goal of each other at the top of the charts.",
+    "featured": true
+  }
+]

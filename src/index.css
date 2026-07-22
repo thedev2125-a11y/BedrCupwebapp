@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+/* Dark mode via .dark class on <html> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* ---- BEDR Youth Association brand palette ----
+     These are the exact colors from the official BEDR brief. Existing
+     component code already references the pitch, emerald, gold, chalk
+     and slate utility classes throughout the app, so we keep those names
+     and just repoint their values to the BEDR palette — every card,
+     button, badge, table, nav, footer, and admin screen picks up the
+     rebrand automatically with no per-component edits needed.
+  */
+  --color-pitch-950: #0b4d3b;   /* Primary Dark Green — nav/footer/hero/dark-mode surface */
+  --color-pitch-900: #0d5940;   /* derived: one step lighter, dark-mode card surfaces */
+  --color-pitch-800: #11704f;   /* derived: lighter still, dark-mode badge/icon backgrounds */
+  --color-dark-700: #0f6b52;    /* Primary Green — used at the light end of dark surfaces/gradients */
+
+  --color-emerald-600: #0f6b52; /* Primary Green — primary buttons, links, active states */
+  --color-emerald-500: #148066; /* derived: hover/brighter state for Primary Green */
+  --color-emerald-400: #3ecda0; /* derived: accent on dark backgrounds (dark-mode links/icons) */
+  --color-emerald-100: #e8f3ef; /* Light Green — soft badge/background fills */
+
+  --color-gold-600: #a3811d;    /* derived: darker gold for readable text-on-light */
+  --color-gold-500: #c9a227;    /* Accent Gold */
+  --color-gold-400: #ddbb52;    /* derived: lighter gold for text on dark backgrounds */
+
+  --color-chalk-50: #f8faf9;    /* Light Background — default page background */
+  --color-chalk-100: #ffffff;   /* White */
+
+  --color-slate-500: #64748b;   /* Muted Text */
+  --color-slate-600: #47556b;   /* derived: darker muted variant for smaller/secondary text */
+  --color-slate-800: #12312a;   /* Dark Text family — kept for existing dark: text pairs */
+  --color-ink: #12312a;         /* Dark Text — primary heading/body text color in light mode */
+
+  /* ---- Type tokens ---- */
+  --font-display: 'Anton', 'Arial Narrow', sans-serif;
+  --font-body: 'Manrope', system-ui, sans-serif;
+  --font-mono: 'Space Mono', ui-monospace, monospace;
+
+  /* ---- Radius / shadow signature ---- */
+  --radius-card: 1rem;
+  --shadow-card: 0 1px 2px rgba(11, 77, 59, 0.05), 0 8px 24px -12px rgba(11, 77, 59, 0.16);
+  --shadow-card-hover: 0 4px 8px rgba(11, 77, 59, 0.08), 0 16px 32px -12px rgba(11, 77, 59, 0.22);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-chalk-50);
+  color: var(--color-ink);
+}
+
+.dark body {
+  background-color: var(--color-pitch-950);
+  color: var(--color-chalk-100);
+}
+
+/* Signature motif: a dashed "touchline" rule, used as a section/card divider
+   instead of a plain border — a small nod to pitch markings. */
+.pitch-line {
+  background-image: repeating-linear-gradient(
+    90deg,
+    var(--color-emerald-500) 0px,
+    var(--color-emerald-500) 10px,
+    transparent 10px,
+    transparent 18px
+  );
+  height: 3px;
+  border-radius: 999px;
+}
+
+/* Live-match pulse dot */
+@keyframes live-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.4; transform: scale(0.75); }
+}
+.live-dot {
+  animation: live-pulse 1.4s ease-in-out infinite;
+}
+
+::selection {
+  background-color: var(--color-gold-400);
+  color: var(--color-pitch-950);
+}
