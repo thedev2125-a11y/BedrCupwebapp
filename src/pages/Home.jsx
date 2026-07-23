@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom';
+import {supabase } from '../lib/supabase';
+import { useEffect } from 'react';
 import { Users, Trophy, Goal, CalendarDays, ArrowRight, CircleDot } from 'lucide-react';
 import PageTransition from '../components/common/PageTransition';
 import SectionTitle from '../components/common/SectionTitle';
@@ -24,6 +26,18 @@ import {
 } from '../utils/tournamentStats';
 
 export default function Home() {
+  useEffect(() => {
+    async function testSupabase() {
+      const { data, error } = await supabase
+        .from('teams')
+        .select('*');
+
+      console.log('Supabase teams:', data);
+      console.log('Supabase error:', error);
+    }
+
+    testSupabase();
+  }, []);
   const { teamsWithStats: teams, playersWithStats: players, fixturesDisplay: fixtures, resultsDisplay: results, news: newsRaw, gallery, sponsors } = useData();
   const news = [...newsRaw]
     .map((a) => ({ ...a, date: formatDisplayDate(a.publishedAt) }))
