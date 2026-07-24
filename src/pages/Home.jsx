@@ -44,7 +44,7 @@ export default function Home() {
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
   const featuredMatch = getFeaturedMatch(fixtures);
-  const thisWeek = getUpcomingFixtures(fixtures, 3);
+  const thisWeek = getUpcomingFixtures(fixtures, 4);
   const topScorers = getTopScorers(players, 3);
   const standingsA = getTeamsByGroup(teams, 'A').slice(0, 3);
   const standingsB = getTeamsByGroup(teams, 'B').slice(0, 3);
