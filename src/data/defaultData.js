@@ -134,13 +134,13 @@ function buildDefaultData() {
   const sponsors = sponsorsJson.map((s) => ({ ...s }));
 
   const settings = {
-    tournamentName: 'Village Summer Tournament 2026',
+    tournamentName: 'Bedr Summer Tournament 2026',
     tagline: 'Unity Through Football',
     startDate: '2026-07-05',
     endDate: '2026-08-09',
-    venue: 'Village Community Pitch',
-    contactEmail: 'info@villagecup.com',
-    contactPhone: '+251 900 000 000',
+    venue: 'Jemo 1 And Abichu Community Pitch',
+    contactEmail: 'hassumi009@gmail.com',
+    contactPhone: '+251 934 154 848 / +251 980 715 057',
     organizer: 'BEDR Youth Association',
   };
 
