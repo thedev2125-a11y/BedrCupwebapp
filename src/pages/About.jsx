@@ -9,8 +9,9 @@ const RULES = [
   'Squads are limited to 6 registered players per team, all eligible to play.',
   'Group matches: 3 points for a win, 1 for a draw, 0 for a loss.',
   'Ties in the standings are broken by goal difference, then goals scored.',
-  'Semi Finals and the Final are single-elimination; extra time and penalties apply if level after 90 minutes.',
-  'Two yellow cards in a match result in a red card and suspension for the next fixture.',
+  'Semi Finals and the Final are single-elimination; extra time and penalties apply if level after 50 minutes.',
+  'Two yellow cards in a match result in a red card and suspension for 5 minute on the ongoing match.',
+  'A red card results in a suspension for only the ongoing match.',
 ];
 
 export default function About() {
@@ -26,7 +27,7 @@ export default function About() {
         <section>
           <SectionTitle eyebrow="Since Day One" title="Tournament History" />
           <p className="text-slate-600 dark:text-slate-300 leading-relaxed">
-            The Village Summer Tournament began as a handful of informal weekend matches between neighboring
+            The Bedr Summer Tournament began as a handful of informal weekend matches between neighboring
             teams and has grown into the village's biggest annual sporting event. Every summer, ten teams and
             over sixty players take to the community pitch, cheered on by families, friends, and local
             businesses who sponsor the competition. What started as a way to keep young players active during
@@ -80,21 +81,21 @@ export default function About() {
               <MapPin size={18} className="text-emerald-500 mt-0.5" />
               <div>
                 <div className="text-sm font-semibold text-ink dark:text-chalk-50">Venue</div>
-                <div className="text-sm text-slate-500 dark:text-slate-400">Village Community Pitch, Main Road</div>
+                <div className="text-sm text-slate-500 dark:text-slate-400">Jemo 1 Community Pitch And Abichu Community Pitch</div>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Mail size={18} className="text-emerald-500 mt-0.5" />
               <div>
                 <div className="text-sm font-semibold text-ink dark:text-chalk-50">Email</div>
-                <div className="text-sm text-slate-500 dark:text-slate-400">info@villagecup.com</div>
+                <div className="text-sm text-slate-500 dark:text-slate-400">hassumi009@gmail.com</div>
               </div>
             </div>
             <div className="flex items-start gap-3">
               <Phone size={18} className="text-emerald-500 mt-0.5" />
               <div>
                 <div className="text-sm font-semibold text-ink dark:text-chalk-50">Phone</div>
-                <div className="text-sm text-slate-500 dark:text-slate-400">+251 900 000 000</div>
+                <div className="text-sm text-slate-500 dark:text-slate-400">+251 934 154 848 / +251 980 715 057</div>
               </div>
             </div>
           </Card>

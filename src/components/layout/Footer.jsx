@@ -14,6 +14,7 @@ const SOCIALS = [
   { icon: ThumbsUp, label: 'Facebook', href: '#' },
   { icon: Camera, label: 'Instagram', href: '#' },
   { icon: Play, label: 'YouTube', href: '#' },
+  { icon: MessageCircle, label: 'Telegram', href: 'https://t.me/BADR_YOUTH_ASSOCIATION' },
 ];
 
 export default function Footer() {
@@ -64,11 +65,11 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-2.5">
               <Phone size={16} className="text-emerald-400 shrink-0" />
-              +251 980 715 057
+              +251 934 154 848 / +251 980 715 057
             </li>
             <li className="flex items-center gap-2.5">
               <Mail size={16} className="text-emerald-400 shrink-0" />
-              info@villagecup.com
+              hassumi009@gmail.com
             </li>
           </ul>
         </div>
