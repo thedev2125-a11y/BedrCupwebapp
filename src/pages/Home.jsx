@@ -65,7 +65,7 @@ export default function Home() {
         />
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20 sm:py-28 text-center">
           <Badge tone="gold" className="mb-5">
-            Jul 5 – Aug 9, 2026 · Village Community Pitch
+            Jul 19 – Sep 6, 2026 · Jemo 1 Community Pitch And Abichu Community Pitch
           </Badge>
           <h1 className="font-display text-5xl sm:text-6xl md:text-7xl tracking-wide text-chalk-50 leading-[0.95]">
             Bedr Summer

@@ -61,7 +61,7 @@ export default function Footer() {
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2.5">
               <MapPin size={16} className="mt-0.5 text-emerald-400 shrink-0" />
-              Jemo 1 Community Pitch, And Abichu Comunity Pitch
+              Jemo 1 Community Pitch And Abichu Community Pitch
             </li>
             <li className="flex items-center gap-2.5">
               <Phone size={16} className="text-emerald-400 shrink-0" />
