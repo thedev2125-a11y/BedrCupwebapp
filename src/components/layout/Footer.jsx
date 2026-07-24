@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { MapPin, Mail, Phone, ThumbsUp, Camera, Play, MessageCircles } from 'lucide-react';
+import { MapPin, Mail, Phone, ThumbsUp, Camera, Play, Send } from 'lucide-react';
 import BrandLogo from '../common/BrandLogo';
 
 const QUICK_LINKS = [
@@ -14,7 +14,7 @@ const SOCIALS = [
   { icon: ThumbsUp, label: 'Facebook', href: '#' },
   { icon: Camera, label: 'Instagram', href: '#' },
   { icon: Play, label: 'YouTube', href: '#' },
-  { icon: MessageCircles, label: 'Telegram', href: 'https://t.me/BADR_YOUTH_ASSOCIATION' },
+  { icon: Send, label: 'Telegram', href: 'https://t.me/BADR_YOUTH_ASSOCIATION' },
 ];
 
 export default function Footer() {
