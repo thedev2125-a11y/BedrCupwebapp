@@ -10,7 +10,7 @@ const COLUMNS = [
   { key: 'gf', label: 'GF', align: 'center' },
   { key: 'ga', label: 'GA', align: 'center' },
   { key: 'gd', label: 'GD', align: 'center' },
-  { key: 'points', label: 'Pts', align: 'center', className: 'font-bold text-emerald-600 dark:text-emerald-400' },
+  { key: 'points', label: 'Pts', align: 'center' },
 ];
 
 /** teams: already sorted (see utils/tournamentStats#getTeamsByGroup) */
