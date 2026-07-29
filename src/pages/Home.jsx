@@ -202,7 +202,7 @@ export default function Home() {
 
         {/* ---------- Tournament stats ---------- */}
         <section>
-          <SectionTitle eyebrow="By The Numbers" title="Tournament Statistics" align="center" />
+          <SectionTitle eyebrow="By The Numbers" title="Tournament Statistics" align="left" />
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
             <StatCard icon={Users} value={teams.length} label="Teams" />
             <StatCard icon={Trophy} value={players.length} label="Players" />
@@ -231,7 +231,7 @@ export default function Home() {
 
         {/* ---------- Sponsors ---------- */}
         <section>
-          <SectionTitle eyebrow="With Thanks To" title="Our Sponsors" align="center" />
+          <SectionTitle eyebrow="With Thanks To" title="Our Sponsors" align="left" />
           <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
             {sponsors.map((s) => (
               <div key={s.id} className="flex items-center gap-2.5 text-slate-500 dark:text-slate-400">
