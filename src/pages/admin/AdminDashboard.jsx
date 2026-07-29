@@ -21,7 +21,7 @@ export default function AdminDashboard() {
     <div>
       <AdminPageHeader
         title="Dashboard"
-        subtitle="Overview of the Village Summer Tournament — everything here is stored in this browser."
+        subtitle="Overview of the Bedr Summer Tournament — everything here is stored in this browser."
       />
 
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
