@@ -30,7 +30,7 @@ export default function Standings() {
         </section>
 
         <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-          <span className="h-3 w-3 rounded-sm bg-emerald-500/60" />
+          <span className="h-3 w-3 rounded-sm bg-emerald-500/60 dark:bg-white" />
           Highlighted rows qualify for the Semi Finals.
         </div>
       </div>
