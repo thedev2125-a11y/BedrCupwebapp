@@ -34,7 +34,7 @@ export default function StandingsTable({ teams }) {
       rows={rows}
       getRowKey={(row) => row.club}
       rowClassName={(_, i) =>
-        i < 2 ? 'bg-emerald-50/60 dark:bg-emerald-500/[0.06] border-l-4 border-l-emerald-500' : ''
+        i < 2 ? 'bg-emerald-50/60 dark:bg-emerald-500/[0.06] border-l-4 border-l-emerald-500 dark:border-l-white' : ''
       }
       emptyMessage="No standings available yet."
     />
