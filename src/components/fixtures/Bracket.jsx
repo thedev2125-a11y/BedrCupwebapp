@@ -7,6 +7,7 @@ import { Trophy } from 'lucide-react';
  * Semi Final and Final entries itself.
  */
 export default function Bracket({ fixtures }) {
+    const quarters = fixtures.filter((m) => m.round === 'Quarter Final');
   const semis = fixtures.filter((m) => m.round === 'Semi Final');
   const final = fixtures.find((m) => m.round === 'Final');
   const isFinalPlayed = final?.status === 'completed';
@@ -22,6 +23,14 @@ export default function Bracket({ fixtures }) {
         {semis.map((m) => (
           <BracketMatch key={m.id} match={m} label="Semi Final" />
         ))}
+      </div>
+
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center">
+      <div className="flex flex-col gap-4">
+        {quarters.map((m) => (
+          <BracketMatch key={m.id} match={m} label="Quarter Final" />
+        ))}
+      </div>
       </div>
 
       <div className="flex justify-center">

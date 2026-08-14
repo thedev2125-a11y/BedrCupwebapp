@@ -16,7 +16,7 @@ export default function Standings() {
       <PageHero
         eyebrow="Group Stage"
         title="Standings"
-        subtitle="Top two teams from each group advance to the Semi Finals."
+        subtitle="Top four teams from each group advance to the Semi Finals."
       />
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 space-y-12">
@@ -31,7 +31,7 @@ export default function Standings() {
 
         <div className="flex items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
           <span className="h-3 w-3 rounded-sm bg-emerald-500/60 dark:bg-white" />
-          Highlighted rows qualify for the Semi Finals.
+          Highlighted rows qualify for the Quarterfinals.
         </div>
       </div>
     </PageTransition>
