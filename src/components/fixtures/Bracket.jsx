@@ -1,6 +1,6 @@
 import Card from '../common/Card';
 import Badge from '../common/Badge';
-import { Trophy } from 'lucide-react';
+import { Clock, Trophy } from 'lucide-react';
 
 /**
  * fixtures: the full fixtures array — this component pulls out the
@@ -71,6 +71,10 @@ function BracketMatch({ match, label }) {
         <Badge tone={match.status === 'completed' ? 'completed' : match.status === 'live' ? 'live' : 'upcoming'}>
           {match.status === 'completed' ? 'FT' : match.status === 'live' ? 'Live' : match.date}
         </Badge>
+      </div>
+      <div className="mb-3 flex items-center gap-1.5 text-xs text-slate-500 dark:text-slate-400">
+        <Clock size={13} />
+        <span>{match.time}</span>
       </div>
       <div className="space-y-1.5 text-sm">
         <div className="flex items-center justify-between">
