@@ -18,7 +18,7 @@ const STATUS_OPTIONS = [
   { label: 'Completed', value: 'completed' },
 ];
 
-const KNOCKOUT_ROUNDS = new Set(['Semi Final', 'Final']);
+const KNOCKOUT_ROUNDS = new Set(['Quarter Final', 'Semi Final', 'Final']);
 
 export default function Fixtures() {
   const { fixturesDisplay } = useData();

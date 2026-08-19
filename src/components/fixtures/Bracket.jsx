@@ -18,14 +18,14 @@ export default function Bracket({ fixtures }) {
     : null;
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center">
+    <div className="grid grid-cols-1 lg:grid-cols-1 gap-5 items-center">
       <div className="flex flex-col gap-4">
         {semis.map((m) => (
           <BracketMatch key={m.id} match={m} label="Semi Final" />
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-1 gap-5 items-center">
       <div className="flex flex-col gap-4">
         {quarters.map((m) => (
           <BracketMatch key={m.id} match={m} label="Quarter Final" />
