@@ -76,7 +76,7 @@ export default function Fixtures() {
         )}
 
         <section>
-          <SectionTitle eyebrow="Knockout Stage" title="Quarterfinal, Semi Final & Final" />
+          <SectionTitle eyebrow="Knockout Stage" title="Quarter Final, Semi Final & Final" />
           <Bracket fixtures={fixturesDisplay} />
         </section>
       </div>
